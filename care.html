@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<title>water</title>
+<link rel="stylesheet" type="text/css" href="sui.css">
+<body>
+<div class="sai">
+	<h1><b><u>HEALTH CARE</u></b></h1>
+	<q> HEALTH ISN'T JUST ABOUT WHAT YOU EAT.IT'S ABOUT WHAT YOU ARE THINKING AND FEELING TOO!!!!!!!! </q>
+</div> 
+
+<script type="text/javascript">
+function validate()
+{
+		console.log("working");
+		var height = parseInt(document.getElementById('uname').value);
+		var weight = parseInt(document.getElementById('pass').value);
+		var r;
+		r=weight/(height*height);
+				if (r <18.5) {
+		
+			document.getElementById("your status").innerHTML += "Underweight";
+		} else if (r<=18.5 && r>=24.9){
+		    document.getElementById("your status").innerHTML += "Normal Weight";
+		} else if(r > 29.9){
+			document.getElementById("your status").innerHTML += "Overweight";
+		} else {
+		    document.getElementById("your status").innerHTML += "Obesity";
+		}	
+					
+}
+</script>
+	<marquee direction="left" behavior="alternate" scrollamount=" 10times" 
+                                          border:"black"; scrollamount="2sec"> 
+                                            <img src="mn.jpg"width="334px" height="206px" border="2px solid black">
+                                            <img src="rt.jpg"width="334px" height="206px" border="2px solid black" >
+                                            <img src="gh.jpg"width="334px" height="206px" border="2px solid black">
+                                            <img src="fds.jpg" width="334px" height="206px" border="2px solid black">
+                                            <img src="uy.png" width="334px" height="206px" border="2px solid black">
+                                             </marquee>
+		
+		
+	
+		ENTER YOUR HEIGHT:
+		<input id ="uname" placeholder=" " type=text/>
+		<br/>
+		<br/>
+		ENTER YOUR WEIGHT
+		<input id="pass" placeholder=" " type=text/>
+		<br/>
+		<br/>
+		<button onclick="validate()">Submit</button>
+	<div id="your status">your status - </div>
+	<div class="gf">					
+			<p>	For other uses, see Health care (disambiguation) or Medical Care (journal).
+
+New York–Presbyterian Hospital in New York City is one of the world's busiest hospitals. Pictured is the Weill-Cornell facility (white complex at the center).
+Health care, health-care, or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals in allied health fields. Physicians and physician associates are a part of these health professionals. Dentistry, midwifery, nursing, medicine, optometry, audiology, pharmacy, psychology, occupational therapy, physical therapy and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
+
+Access to health care may vary across countries, communities, and individuals, largely influenced by social and economic conditions as well as health policies. Providing health care services means "the timely use of personal health services to achieve the best possible health outcomes".[1] Factors to consider in terms of healthcare access include financial limitations (such as insurance coverage), geographic barriers (such as additional transportation costs, possibility to take paid time off of work to use such services), and personal limitations (lack of ability to communicate with healthcare providers, poor health literacy, low income).[2] Limitations to health care services affects negatively the use of medical services, efficacy of treatments, and overall outcome (well-being, mortality rates).
+
+Health care systems are organizations established to meet the health needs of targeted populations. According to the World Health Organization (WHO), a well-functioning health care system requires a financing mechanism, a well-trained and adequately paid workforce, reliable information on which to base decisions and policies, and well maintained health facilities to deliver quality medicines and technologies.[3]
+
+An efficient health care system can contribute to a significant part of a country's economy, development and industrialization. Health care is conventionally regarded as an important determinant in promoting the general physical and mental health and well-being of people around the world. An example of this was the worldwide eradication of smallpox in 1980, declared by the WHO as the first disease in human history to be completely eliminated by deliberate health care interventions.[4]		</p>
+</div>
+</body>
+</html>

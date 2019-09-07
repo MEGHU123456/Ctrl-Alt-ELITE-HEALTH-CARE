@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<title>water</title>
+<link rel="stylesheet" type="text/css" href="sui.css">
+<body>
+<div class="sai">
+	<h1><b><u>HEALTH CARE</u></b></h1>
+	<q> HEALTH ISN'T JUST ABOUT WHAT YOU EAT.IT'S ABOUT WHAT YOU ARE THINKING AND FEELING TOO!!!!!!!! </q>
+</div> 
+
+<script type="text/javascript">
+function validate()
+{
+		console.log("working");
+		var uname = parseInt(document.getElementById('uname').value);
+		var pass = parseInt(document.getElementById('pass').value);
+		uname *= 50;
+		if (pass > uname) {
+			pass -= uname;
+			document.getElementById("your status").innerHTML += pass;
+		} else if (pass < uname){
+		    document.getElementById("your status").innerHTML += "You are using water in proper manner and please maintain this consistency";
+		} else if(pass == uname){
+			document.getElementById("your status").innerHTML += "Your using water in the correct manner";
+		} else {
+		    document.getElementById("your status").innerHTML += "Wrong input";
+		}	
+					
+}
+</script>
+	<marquee direction="left" behavior="alternate" scrollamount=" 10times" 
+                                          border:"black"; scrollamount="2sec"> 
+                                            <img src="vcd.jpg"width="334px" height="206px" border="2px solid black">
+                                            <img src="wa.jpg"width="334px" height="206px" border="2px solid black" >
+                                            <img src="fdg.jpg"width="334px" height="206px" border="2px solid black">
+                                            <img src="bv.jpg" width="334px" height="206px" border="2px solid black">
+                                            <img src="gfd.jpg" width="334px" height="206px" border="2px solid black">
+                                             </marquee>
+		
+		
+	
+		ENTER YOUR HEIGHT:
+		<input id ="uname" placeholder=" " type=text/>
+		<br/>
+		<br/>
+		ENTER YOUR WEIGHT
+		<input id="pass" placeholder=" " type=text/>
+		<br/>
+		<br/>
+		<button onclick="validate()">Submit</button>
+	<div id="output">Output - </div>
+	<div class="gf">					
+						<p>
+Water scarcity is lack of fresh water resources to meet water demand.When water run dry,people will not get enough to drink,wash,or feed crops, and economic decline may occur.In addition, inadequate sanitation- a problem for 2.4 billion people can lead to many diseases.
+Water conservation meter measures the amount of water being overused.It will give the basic information of how much water is being wasted by a family on monthly basis.It will give awareness to the people about water consumption and conservation.</p>
+</div>
+</body>
+</html>
